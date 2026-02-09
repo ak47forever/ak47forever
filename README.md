@@ -77,28 +77,23 @@
 
 <body class="stars">
 
-<!-- 🎶 MUSIC (loops forever, starts on first click) -->
+<!-- 🎶 MUSIC : starts on first click + loops forever -->
 <iframe
   id="musicPlayer"
   width="0"
   height="0"
-  src="https://www.youtube.com/embed/4yZ-mn0u8NE?autoplay=0&loop=1&playlist=4yZ-mn0u8NE"
+  src="https://www.youtube.com/embed/TuUVVKVdZm4?autoplay=0&loop=1&playlist=TuUVVKVdZm4"
   frameborder="0"
   allow="autoplay">
 </iframe>
 
-<!-- LANDING -->
 <section>
   <div class="card">
-    <h1>
-      Out of billions of people,<br>
-      somehow… the universe paused for you ✨
-    </h1>
+    <h1>Out of billions of people,<br>somehow… the universe paused for you ✨</h1>
     <button onclick="goTo('letter')">Enter our little universe 💫</button>
   </div>
 </section>
 
-<!-- LOVE LETTER -->
 <section id="letter">
   <div class="card">
     <p>
@@ -124,7 +119,6 @@
   </div>
 </section>
 
-<!-- TIMELINE -->
 <section id="timeline">
   <div class="card">
     <h2>🌌 How the universe slowly wrote us</h2>
@@ -137,7 +131,6 @@
   </div>
 </section>
 
-<!-- FEELS -->
 <section id="feels">
   <div class="card">
     <p>Some souls don’t feel new. They feel remembered.</p>
@@ -147,7 +140,6 @@
   </div>
 </section>
 
-<!-- QUESTION -->
 <section id="question">
   <div class="card">
     <h2>If the universe really did plan us…</h2>
@@ -157,7 +149,6 @@
   </div>
 </section>
 
-<!-- RESPONSE -->
 <section id="yes">
   <div class="card">
     <h1>And of course.</h1>
@@ -166,14 +157,12 @@
   </div>
 </section>
 
-<!-- SECRET -->
 <section id="secret">
   <div class="card">
     <p>
       If loving you feels this easy,<br>
       if choosing you feels this natural,<br>
       then maybe it was always written.<br><br>
-
       You are chosen.<br>
       You are loved.<br>
       And somehow, against all odds —<br>
@@ -185,7 +174,6 @@
 
 <script>
   let musicStarted = false;
-
   function goTo(id) {
     if (!musicStarted) {
       const player = document.getElementById("musicPlayer");
