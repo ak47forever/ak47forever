@@ -77,23 +77,28 @@
 
 <body class="stars">
 
-<!-- 🎶 MUSIC : starts on first click + loops forever -->
+<!-- 🎶 MUSIC (loops forever, starts on first click) -->
 <iframe
   id="musicPlayer"
   width="0"
   height="0"
-  src="https://www.youtube.com/embed/TuUVVKVdZm4?autoplay=0&loop=1&playlist=TuUVVKVdZm4"
+  src="https://www.youtube.com/embed/4yZ-mn0u8NE?autoplay=0&loop=1&playlist=4yZ-mn0u8NE"
   frameborder="0"
   allow="autoplay">
 </iframe>
 
+<!-- LANDING -->
 <section>
   <div class="card">
-    <h1>Out of billions of people,<br>somehow… the universe paused for you ✨</h1>
+    <h1>
+      Out of billions of people,<br>
+      somehow… the universe paused for you ✨
+    </h1>
     <button onclick="goTo('letter')">Enter our little universe 💫</button>
   </div>
 </section>
 
+<!-- LOVE LETTER -->
 <section id="letter">
   <div class="card">
     <p>
@@ -119,27 +124,30 @@
   </div>
 </section>
 
+<!-- TIMELINE -->
 <section id="timeline">
   <div class="card">
     <h2>🌌 How the universe slowly wrote us</h2>
-    <p>🌟 When the universe first whispered your name</p>
-    <p>🌙 When liking quietly turned into something deeper</p>
+    <p>🌟 Thank you ma'am Deepanjali</p>
+    <p>🌙 Physics Lab built the Chemistry</p>
     <p>💫 When choosing you started feeling natural</p>
-    <p>💖 Now — where love feels calm, sure, and real</p>
+    <p>💖 Now — where love feels so sure that I fear the void</p>
     <p>🔮 What the future is gently promising us…</p>
     <button onclick="goTo('feels')">One more thing ✨</button>
   </div>
 </section>
 
+<!-- FEELS -->
 <section id="feels">
   <div class="card">
     <p>Some souls don’t feel new. They feel remembered.</p>
-    <p>If comfort had a name, it would sound like you.</p>
+    <p>If comfort had a name, it would sound like yours.</p>
     <p>Loving you doesn’t feel heavy. It feels right.</p>
     <button onclick="goTo('question')">Almost there 💗</button>
   </div>
 </section>
 
+<!-- QUESTION -->
 <section id="question">
   <div class="card">
     <h2>If the universe really did plan us…</h2>
@@ -149,6 +157,7 @@
   </div>
 </section>
 
+<!-- RESPONSE -->
 <section id="yes">
   <div class="card">
     <h1>And of course.</h1>
@@ -157,23 +166,26 @@
   </div>
 </section>
 
+<!-- SECRET -->
 <section id="secret">
   <div class="card">
     <p>
       If loving you feels this easy,<br>
       if choosing you feels this natural,<br>
       then maybe it was always written.<br><br>
+
       You are chosen.<br>
       You are loved.<br>
       And somehow, against all odds —<br>
       you are meant to be ✨
     </p>
-    <p style="margin-top:20px;">— always, me</p>
+    <p style="margin-top:20px;">— always, yours</p>
   </div>
 </section>
 
 <script>
   let musicStarted = false;
+
   function goTo(id) {
     if (!musicStarted) {
       const player = document.getElementById("musicPlayer");
