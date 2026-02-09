@@ -113,7 +113,8 @@
       for how easily you became important to me.
       And oh God, how I miss you every single day.
       Life has humbled me enough to understand that what’s the point of a whole garden
-      when the only flower I love is missing.<br><br>
+      when the only flower I love is missing.Some days the distance feels unbearable and I want you right next to me. I miss you constantly , in everyday moments where I wish you were here. Counting days has somehow become my favourite habit, not because I want to, but because it’s the only thing that makes the waiting feel survivable. Loving you from here isn’t easy, but it’s still you who I want, every single day.
+And no matter how far you are, you are always the place my heart comes back to.<br><br>
 
       I love you — silently, calmly, loudly, dramatically — in every possible way.
       You literally mean the world to me, in the soft everyday sense that actually lasts.<br><br>
